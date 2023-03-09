@@ -1,0 +1,273 @@
+.trading-account-balance {
+    float: left;
+}
+
+.trading-current-balance-container{
+    float: left;
+    margin-bottom: 15px;
+}
+
+.trading-positions-container{
+    float: left;
+    margin-bottom: 15px;
+    
+}
+
+.trading-account-orders-container {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.trading-account-info-section-container {
+    float: right;
+    width: 775px;
+    height: 100%;
+    min-height: 825px;
+    overflow: clip;
+    border-left-style: solid;
+    padding-left: 15px;
+    border-left-color: lightgrey;
+}
+
+#trading-account-info-section-header {
+    display: inline-block;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.trading-account-list-container{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+#trading-account-list {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.trading-asset-info-section-container{
+    float: left;
+}
+
+.balance-label {
+    font-weight: 500;
+}
+
+
+table.trading-account-balance-table-current td {
+    display: table-cell;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: left;
+    width: 400px;
+
+}
+
+.trading-account-balance-table {
+    overflow: auto;
+    display: inline-block;
+    height: 125px;
+}
+
+    table.trading-account-balance-table td, th {            
+            padding: 3px; 
+            border-bottom: 1px solid #e5e5e5;
+            text-align: left;
+
+    }
+
+    table.trading-account-balance-table th{
+        padding-right: 15px;
+        background-color: lightcyan;
+    }
+
+.trading-account-order-balance-table{
+    overflow: auto;
+    display: inline-block;
+    height: 225px;
+    width: 750px;
+}
+    
+    table.trading-account-order-balance-table td, th {            
+        padding: 3px; 
+        border-bottom: 1px solid #e5e5e5;
+        text-align: left;
+
+    }
+
+    table.trading-account-order-balance-table th{
+    padding-right: 15px;
+    background-color: lightcyan;
+    }
+
+
+
+
+.sidebar {
+  width: 200px;
+  background-color: #f1f1f1;
+  height: 100%;
+  position: fixed;
+  top: 150px;
+  margin-right: 0px;
+  font-size: 18px;
+}
+
+#mySearch {
+    width: 190px;
+    height: 30px;
+}
+
+.header{
+	fontsize: 26px;
+}
+
+.subheader{
+	fontsize: 14px;
+}
+
+.chart-container {
+    float: left;
+    margin-top: 30px;
+    margin-left: 200px; 
+}
+
+.account-container{
+    width: 300px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 2px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 800px;
+    overflow: hidden;
+}
+
+.position-container{
+    width: 300px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 2px;
+    margin-left: 800px;
+    overflow: hidden;
+}
+
+.currorder-container{
+	width: 300px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 2px;
+    margin-left: 800px;
+    overflow: hidden;
+}
+
+.makeorder-container{
+	width: 300px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 2px;
+    margin-left: 800px;
+    overflow: hidden;
+}
+
+.info-container{
+	width: 300px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 2px;
+    margin-left: 800px;
+    overflow: hidden;
+}
+
+.trading-current-asset-container {
+    display: block;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 850;
+    height: 400;
+}
+
+.trading-side-bar-asset {
+    cursor: pointer;
+    height: 80px;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(194, 194, 194);
+}
+
+.trading-current-asset-info-conatiner {
+    display: block;
+    width: 450px;
+    padding-left: 75px;
+    padding-top: 50px;
+    float: left;
+    background-color: lightcyan;
+    min-height: 500px;
+}
+
+.trading-order-container {
+    display: block;
+    padding-top: 50px;
+    float: left;
+    width: 450px;
+    background-color: lightcyan;
+    min-height: 500px;
+}
+
+.sidebar-margin {
+    width: 200px;
+    height: 1000px;
+    float: left;
+}
+
+.trading-current-asset-info-field {
+    font-weight: 600;
+    padding: 3px;
+    font-size: 18px;
+}
+
+.order-input-field {
+    padding: 2px;
+}
+
+.order-button-buy {
+    color: white;
+    background-color: green;
+    margin: 2px;
+    border-radius: 5px;
+    width: 75px;
+}
+
+.order-button-sell {
+    color: white;
+    background-color: red;
+    margin: 2px;
+    border-radius: 5px;
+    width: 75px;
+}
+
+
+
+.trading-sidebar-asset-info-section {
+    display: block;
+    float: left;
+    width: 1100px;
+}
+
+.sidebar-search-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.red-error-message {
+    color: red;
+}

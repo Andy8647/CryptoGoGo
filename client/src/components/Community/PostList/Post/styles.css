@@ -1,0 +1,32 @@
+.MuiTable-root.comment-list {
+    margin-top: 0;
+  }
+
+.comment {
+    margin-bottom: 5px;
+    font-size: 150%;
+}
+.comment .MuiTableCell-root {
+    font-size: 0.75em;
+    color: gray;
+}
+
+.reply {
+    float: right;
+}
+
+.reply .input{
+    width: 500px;
+}
+
+.reply .submmit{
+    height: 55px;
+    margin-left: 5px;
+}
+
+.like {
+    height: 55px;
+}
+
+
+  
